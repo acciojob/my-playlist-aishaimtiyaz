@@ -1,1 +1,51 @@
 /*  your css code here. If applicable */
+body{
+	background-color: rgb(204, 204, 204);
+	
+}
+.root{
+	align-items:center;
+}
+#songsList{
+	background-color: rgb(255, 255, 255);
+	padding:1px;
+	border-radius:5px;
+}
+#songsList>ul{
+	list-style-type:none;
+}
+a{
+	text-decoration-line:none;
+	color:black;
+}
+.player_one{
+	background-color: rgb(255, 255, 255);
+	padding:5px;
+	border-radius:5px;
+	margin:auto;
+	width:670px;
+	
+	
+	
+}
+.player_one,#songsList{
+	border:2px solid black;
+}
+.player_one>video{
+	 padding-left: 75px;
+	padding-top:15px;
+	padding-bottom:15px;
+	width:530px;
+}
+h2,h1{
+	text-align:center;
+}
+p,li{
+	padding-left:4px;
+	font-weight:600;
+}
+audio{
+	padding:2px;
+	width:490px;
+	margin:10px;
+}
